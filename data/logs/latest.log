@@ -1,0 +1,41 @@
+[03:24:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:24:37] [ServerMain/INFO]: No existing world data, creating new world
+[03:24:37] [ServerMain/INFO]: Loaded 1175 recipes
+[03:24:38] [ServerMain/INFO]: Loaded 1276 advancements
+[03:24:38] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[03:24:38] [Server thread/INFO]: Loading properties
+[03:24:38] [Server thread/INFO]: Default game type: SURVIVAL
+[03:24:38] [Server thread/INFO]: Generating keypair
+[03:24:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:24:38] [Server thread/INFO]: Using epoll channel type
+[03:24:38] [Server thread/INFO]: Preparing level "world"
+[03:24:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:24:40] [Worker-Main-11/INFO]: Preparing spawn area: 2%
+[03:24:41] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[03:24:41] [Worker-Main-11/INFO]: Preparing spawn area: 18%
+[03:24:42] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[03:24:42] [Worker-Main-4/INFO]: Preparing spawn area: 77%
+[03:24:43] [Server thread/INFO]: Time elapsed: 2206 ms
+[03:24:43] [Server thread/INFO]: Done (4.315s)! For help, type "help"
+[03:24:43] [Server thread/INFO]: Starting remote control listener
+[03:24:43] [Server thread/INFO]: Thread RCON Listener started
+[03:24:43] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[03:33:01] [User Authenticator #1/INFO]: UUID of player flame03fire is 547f17e4-fc57-4ed2-a118-a03eb53408a5
+[03:33:02] [Server thread/INFO]: flame03fire[/172.18.0.1:36202] logged in with entity id 91 at (-6.5, 78.0, 3.5)
+[03:33:02] [Server thread/INFO]: flame03fire joined the game
+[03:33:17] [Server thread/INFO]: flame03fire lost connection: Disconnected
+[03:33:17] [Server thread/INFO]: flame03fire left the game
+[03:33:24] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[03:33:24] [Server thread/INFO]: [Rcon: Stopping the server]
+[03:33:24] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[03:33:24] [Server thread/INFO]: Stopping server
+[03:33:24] [Server thread/INFO]: Saving players
+[03:33:24] [Server thread/INFO]: Saving worlds
+[03:33:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:33:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:33:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:33:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:33:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:33:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:33:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:33:26] [Server thread/INFO]: Thread RCON Listener stopped
