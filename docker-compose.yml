@@ -20,12 +20,15 @@ services:
       - modded
     build: /Servers/adultcraft
     environment:
-      BASE_IMAGE: eclipse-temurin:8-jre
       EULA: "TRUE"
       TYPE: FORGE
+      MOD_PLATFORM: AUTO_CURSEFORGE
       VERSION: 1.12.2
       FORGE_VERSION: 14.23.5.2859
-      FORGE_FORCE_REINSTALL: "true"
+      CF_API_KEY: ${CF_API_KEY}
+      # CF_MODPACK_ZIP: /Servers/adultcraft/mods/adultcraft-1.zip
+      CF_MODPACK_MANIFEST: /mods/manifest.json
+      CF_SLUG: "custom"
       MAX_MEMORY: 8G
       SERVER_NAME: Valinna Server
     tty: true
@@ -36,6 +39,7 @@ services:
     volumes:
       - ./data:/data
       - ./Servers/adultcraft/mods:/mods
+      - ./Servers/adultcraft/mods:/mods:ro
 
 volumes:
   data: {}
