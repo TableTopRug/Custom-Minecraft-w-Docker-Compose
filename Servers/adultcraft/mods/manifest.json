@@ -1,104 +1,188 @@
 {
-    "minecraft": {
-      "version": "1.12.2",
-      "modLoaders": [
-        {
-          "id": "forge-14.23.5.2859",
-          "primary": true
-        }
-      ]
-    },
-    "manifestType": "minecraftModpack",
-    "manifestVersion": 1,
-    "name": "adultcraft",
-    "version": "1",
-    "author": "",
-    "files": [
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
       {
-        "projectID": 224712,
-        "fileID": 2916368,
-        "required": true
-      },
-      {
-        "projectID": 285105,
-        "fileID": 2612988,
-        "required": true
-      },
-      {
-        "projectID": 263420,
-        "fileID": 5262340,
-        "required": true
-      },
-      {
-        "projectID": 225608,
-        "fileID": 2941712,
-        "required": true
-      },
-      {
-        "projectID": 302584,
-        "fileID": 2829351,
-        "required": true
-      },
-      {
-        "projectID": 321117,
-        "fileID": 3150850,
-        "required": true
-      },
-      {
-        "projectID": 310059,
-        "fileID": 5160066,
-        "required": true
-      },
-      {
-        "projectID": 248453,
-        "fileID": 2785465,
-        "required": true
-      },
-      {
-        "projectID": 243298,
-        "fileID": 3116493,
-        "required": true
-      },
-      {
-        "projectID": 238222,
-        "fileID": 5101347,
-        "required": true
-      },
-      {
-        "projectID": 418933,
-        "fileID": 5304675,
-        "required": true
-      },
-      {
-        "projectID": 342543,
-        "fileID": 3987930,
-        "required": true
-      },
-      {
-        "projectID": 323993,
-        "fileID": 2722821,
-        "required": true
-      },
-      {
-        "projectID": 253449,
-        "fileID": 2568751,
-        "required": true
-      },
-      {
-        "projectID": 229060,
-        "fileID": 2801262,
-        "required": true
-      },
-      {
-        "projectID": 538149,
-        "fileID": 5077462,
-        "required": true
-      },
-      {
-        "projectID": 322131,
-        "fileID": 2818003,
-        "required": true
+        "id": "forge-14.23.5.2859",
+        "primary": true
       }
-    ],
-    "overrides": "overrides"
-  }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "adultcraft",
+  "author": "",
+  "files": [
+    {
+      "projectID": 418933,
+      "fileID": 5304675,
+      "required": true
+    },
+    {
+      "projectID": 229060,
+      "fileID": 2801262,
+      "required": true
+    },
+    {
+      "projectID": 268655,
+      "fileID": 2951840,
+      "required": true
+    },
+    {
+      "projectID": 322131,
+      "fileID": 2818003,
+      "required": true
+    },
+    {
+      "projectID": 323993,
+      "fileID": 2722821,
+      "required": true
+    },
+    {
+      "projectID": 419286,
+      "fileID": 4828995,
+      "required": true
+    },
+    {
+      "projectID": 74924,
+      "fileID": 2713386,
+      "required": true
+    },
+    {
+      "projectID": 61811,
+      "fileID": 3204475,
+      "required": true
+    },
+    {
+      "projectID": 239197,
+      "fileID": 5354089,
+      "required": true
+    },
+    {
+      "projectID": 342543,
+      "fileID": 3987930,
+      "required": true
+    },
+    {
+      "projectID": 250957,
+      "fileID": 2630860,
+      "required": true
+    },
+    {
+      "projectID": 302584,
+      "fileID": 2829351,
+      "required": true
+    },
+    {
+      "projectID": 538149,
+      "fileID": 5077462,
+      "required": true
+    },
+    {
+      "projectID": 243298,
+      "fileID": 3116493,
+      "required": true
+    },
+    {
+      "projectID": 253449,
+      "fileID": 2568751,
+      "required": true
+    },
+    {
+      "projectID": 272671,
+      "fileID": 2843439,
+      "required": true
+    },
+    {
+      "projectID": 545353,
+      "fileID": 3519479,
+      "required": true
+    },
+    {
+      "projectID": 321117,
+      "fileID": 3150850,
+      "required": true
+    },
+    {
+      "projectID": 263420,
+      "fileID": 5262340,
+      "required": true
+    },
+    {
+      "projectID": 247661,
+      "fileID": 2626416,
+      "required": true
+    },
+    {
+      "projectID": 74072,
+      "fileID": 2902483,
+      "required": true
+    },
+    {
+      "projectID": 229503,
+      "fileID": 3102626,
+      "required": true
+    },
+    {
+      "projectID": 390354,
+      "fileID": 3411757,
+      "required": true
+    },
+    {
+      "projectID": 275343,
+      "fileID": 2557670,
+      "required": true
+    },
+    {
+      "projectID": 224712,
+      "fileID": 2916368,
+      "required": true
+    },
+    {
+      "projectID": 238222,
+      "fileID": 5101347,
+      "required": true
+    },
+    {
+      "projectID": 376876,
+      "fileID": 3414082,
+      "required": true
+    },
+    {
+      "projectID": 248453,
+      "fileID": 2785465,
+      "required": true
+    },
+    {
+      "projectID": 291786,
+      "fileID": 2701203,
+      "required": true
+    },
+    {
+      "projectID": 285105,
+      "fileID": 2612988,
+      "required": true
+    },
+    {
+      "projectID": 310059,
+      "fileID": 5160066,
+      "required": true
+    },
+    {
+      "projectID": 228525,
+      "fileID": 2836960,
+      "required": true
+    },
+    {
+      "projectID": 245549,
+      "fileID": 2476626,
+      "required": true
+    },
+    {
+      "projectID": 225608,
+      "fileID": 2941712,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}
