@@ -18,7 +18,7 @@ services:
     profiles:
       - adult
       - modded
-    build: /Servers/adultcraft
+    build: ./Servers/adultcraft
     environment:
       EULA: "TRUE"
       TYPE: FORGE
