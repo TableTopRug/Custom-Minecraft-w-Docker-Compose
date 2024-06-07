@@ -40,7 +40,7 @@ services:
     ports:
       - 58008:25565
     volumes:
-      - ./data:/data
+      - ./Servers/adultcraft/data:/data
       - ./Servers/adultcraft/mods:/mods
       - ./Servers/adultcraft/mods:/mods:ro
 
