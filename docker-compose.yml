@@ -12,7 +12,7 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: FORGE
-      VERSION: 1.12.2
+      MOD_PLATFORM: AUTO_CURSEFORGE
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./Servers/vanillacraft/data:/data
