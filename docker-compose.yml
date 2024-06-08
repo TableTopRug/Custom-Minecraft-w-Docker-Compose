@@ -3,6 +3,7 @@ services:
     container_name: vanillacraft
     profiles:
       - vanilla
+    build: ./Servers/vanillacraft
     image: itzg/minecraft-server
     tty: true
     stdin_open: true
@@ -14,7 +15,9 @@ services:
       VERSION: 1.12.2
     volumes:
       # attach the relative directory 'data' to the container's /data path
-      - ./data:/data
+      - ./Servers/vanillacraft/data:/data
+      - ./Servers/vanillacraft/mods:/mods
+      - ./Servers/vanillacraft/mods:/mods:ro
   adult-server:
     container_name: adultcraft
     image: itzg/minecraft-server:java8
